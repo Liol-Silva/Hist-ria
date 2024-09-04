@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Jornada do Herói</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>O herói que vive em uma pequena vila. Recebe um chamado para a aventura</p>
+            <button class="btn-proximo" data-proximo="1">Sim:O herói aceita o chamado</button>
+            <button class="btn-proximo" data-proximo="2">Não:O herói recusa e continua sua vida pacata (fim).</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>O herói encontra um mentor. O herói treina com o mentor.</p>
+            <button class="btn-proximo" data-proximo="3">Sim:O herói adquire novas habilidades</button>
+            <button class="btn-proximo" data-proximo="4">Não:O herói tenta seguir sozinho (Dificuldades aumentam).</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>O herói chega no primeiro obstáculo. Lutar ou fugir?</p>
+            <button class="btn-proximo" data-proximo="5">Lutar:O herói vence e avança.</button>
+            <button class="btn-proximo" data-proximo="6">fugir:O herói volta para o mentor e se prepara melhor </button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>O herói encontra o vilão. Confiar em si mesmo ou pedir ajuda?</p>
+            <button class="btn-proximo" data-proximo="7">Confiar: O herói derrota o vilão com suas próprias habilidades</button>
+        <button class="btn-proximo" data-proximo="8">Pedir ajuda:O herói derrota o vilão com a ajuda dos amigos </button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>O herói retorna a vila. Compartilhar a experiência ou guardar para si?</p>
+            <button class="btn-proximo" data-proximo="9">Compartilhar:O herói se torna líder da vila</button>
+            <button class="btn-proximo" data-proximo="9">Guardar: O herói retorna à sua vida simples, mas com novas perspectivas</button>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
